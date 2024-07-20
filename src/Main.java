@@ -53,5 +53,6 @@ public class Main {
         System.out.println("Задача 3");
         int deliveryDistance = 95;
         toDeliveryDays(deliveryDistance);
+        //
     }
 }
