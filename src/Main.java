@@ -1,12 +1,7 @@
 import java.time.LocalDate;
 import java.util.Arrays;
 import java.time.Year;
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-
-
 public class Main {
-
     public static void printIsLeapYear(int year) {
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " год является високосным");
@@ -14,7 +9,6 @@ public class Main {
             System.out.println(year + " год не является високосным");
         }
     }
-
     public static void installSystem(int oC, int clientDeviceYear) {
         int currentYear = LocalDate.now().getYear();
         if (oC == 0 && clientDeviceYear < currentYear) {
@@ -27,7 +21,6 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
     }
-
     public static void toDeliveryDays(int deliveryDistance) {
         int days = 1;
         if (deliveryDistance < 20) {
@@ -40,7 +33,6 @@ public class Main {
             System.out.println("Доставки нет");
         }
     }
-
     public static void main(String[] args) {
         System.out.println("Задача 1");
         int year = 2023;
